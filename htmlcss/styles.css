@@ -1,7 +1,7 @@
 /* Global styles */
 
 body { 
-    background-color: #84bd00;
+    background-color: #6f9460;
 }
 
 nav ul { 
@@ -16,7 +16,7 @@ nav {
 
 nav li a {
     display: block;
-    background-color: green;
+    background-color: #9dba9a;
     margin: 10px 0;
     height: 40px;
     line-height: 40px;
