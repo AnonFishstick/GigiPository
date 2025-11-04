@@ -1,8 +1,6 @@
 img { 
-    display:block; 
+    display:flex; 
     margin:auto;
-    width:350px;
-    height:250px;
     background-color: white;
    border-style: solid;
    border-color: black;
@@ -52,6 +50,3 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
-
-
-
