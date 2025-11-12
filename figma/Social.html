@@ -7,29 +7,85 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <link href="styles.css" rel="stylesheet">
+  <link href="styless.css" rel="stylesheet">
 </head>
 
-<body class="d-flex flex-column min-vh-100 text-white bg-dark">
+<body class="text-white">
+ 
+<body class="d-flex flex-column min-vh-100 text-white">
   <nav class="navbar">
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
       <li><a href="Social.html">Social</a></li>
-      <li><a href="More.html">More</a></li>
       <li><a href="Prices.html">Prices</a></li>
     </ul>
     <div class="menu-toggle" id="menuToggle">&#9776;</div>
   </nav>
 
-  <main class="cover-container d-flex flex-column justify-content-center align-items-center text-center flex-grow-1 px-3">
+  <main class="page-content">
+    <div class="container py-5">
+      <header class="blog-header mb-4 border-bottom pb-3">
+        <h1 class="display-4 fw-bold">Social Events</h1>
+  
+      </header>
 
-    
-    <h1 class="cover-heading">Cover your page.</h1>
-    <p class="lead">Create a beautiful and responsive single-page layout for your wedding or event. Customize it easily with your own images and content.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-light fw-bold">Learn more</a>
-    </p>
+      <div class="row g-4">
+        <div class="col-md-8">
+          <article class="blog-post bg-dark bg-opacity-75 p-4 rounded">
+            <h2 class="blog-post-title mb-3">Capturing Every Celebration</h2>
+            <p class="text-light"> Your big moment is coming up and your pondering ideas with your friends and loved ones we're sure. You can check our social media for ideas, support groups for even more help and more! </p>
+            <p class="text-light">Our team handles every detail — photography, decor, and music — so you can focus on what truly matters: sharing joy with the people you love most. You can always reach out to us on social media with any worries you might have.</p>
+          </article>
+        </div>
+
+        <div class="col-md-4">
+          <div class="p-4 bg-dark bg-opacity-75 rounded">
+            <h4>Upcoming Events</h4>
+            <ul class="list-unstyled mt-3">
+              <li><a href="#" class="link-light text-decoration-none">Black Friday sale soon! Your perfect wedding at the perfect cost!</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
+
+<section class="carousel-section">
+  <div id="weddingCarousel" class="carousel slide rounded-carousel" data-bs-ride="carousel" data-bs-interval="4000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/Dest1.webp" class="d-block w-100" alt="Wedding moment 1">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Dest2.jpg" class="d-block w-100" alt="Wedding moment 2">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Dest3.png" class="d-block w-100" alt="Wedding moment 3">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#weddingCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#weddingCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="carousel-text-box">
+    <h2>Capturing Your Perfect Day</h2>
+    <p>
+    The perfect wedding means you need the perfect spot. Todays top spot is in Flordia, with a beautiful evening and lovely decor.
+    </p>
+  </div>
+</section>
+
+
+<div class="bottom-image-container">
+  <img src="images/Brideparty.jpg" alt="Social event" class="bottom-image">
+</div>
 
   <script>
     const menuToggle = document.getElementById('menuToggle');
